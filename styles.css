@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0px;
+}
+
+:root {
+
+/* COLORS */
+--White: hsl(0, 0%, 100%)
+
+--Stone-100: hsl(30, 54%, 90%)
+--Stone-150: hsl(30, 18%, 87%)
+--Stone-600: hsl(30, 10%, 34%)
+--Stone-900: hsl(24, 5%, 18%)
+
+--Brown-800: hsl(14, 45%, 36%)
+
+--Rose-800: hsl(332, 51%, 32%)
+--Rose-50: hsl(330, 100%, 98%)
+
+/* SPACING */
+
+--spacing-1600: 128px;
+--spacing-600: 148px;
+--spacing-500: 40px;
+--spacing-300: 24px;
+--spacing-200: 16px;
+--spacing-150: 12px;
+--spacing-100: 8px;
+
+/* FONTSIZE */
+
+--font-size-desktop-text-preset-1: 40px;
+--font-size-desktop-text-preset-2: 28px;
+--font-size-desktop-text-preset-3: 20px;
+--font-size-desktop-text-preset-4: 16px;
+
+
+
+}
+
+body {
+}
+
+
+.text-preset-1 {
+    color: var(--color-stone-900, #312E2C);
+
+    /* Desktop/text-preset-1 */
+    font-family: "Young Serif";
+    font-size: var(--font-size-desktop-text-preset-1, 40px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 40px */
+}
+.text-preset-2 {
+    color: var(--color-stone-900, #312E2C);
+
+    /* Desktop/text-preset-2 */
+    font-family: "Young Serif";
+    font-size: var(--font-size-desktop-text-preset-2, 28px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 28px */
+}
+.text-preset-3 {
+    color: var(--color-stone-900, #312E2C);
+
+    /* Desktop/text-preset-3 */
+    font-family: Outfit;
+    font-size: var(--font-size-desktop-text-preset-3, 20px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 20px */
+}
+.text-preset-4 {
+    color: var(--color-stone-900, #312E2C);
+
+    /* Desktop/text-preset-4 */
+    font-family: Outfit;
+    font-size: var(--font-size-desktop-text-preset-4, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+.text-preset-5 {
+    color: var(--color-stone-900, #312E2C);
+
+    /* Desktop/text-preset-4-bold */
+    font-family: Outfit;
+    font-size: var(--font-size-desktop-text-preset-4, 16px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+}
+
+.card {
+    max-width: 736px;
+}
+
+img {
+    object-fit: contain;
+}
+
+.table-row {
+    display: flex;
+    justify-content: space-between;
+}
+
