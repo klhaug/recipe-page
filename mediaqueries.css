@@ -1,0 +1,30 @@
+@media screen and (max-width: 736px) {
+    section:first-of-type {
+        gap: var(--spacing-300);
+    }
+    
+    .card{
+        margin: 0;
+    }
+
+    .img-container {
+        padding: 0;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 440px) {
+    .text-preset-1 {
+    color: var(--color-stone-900, #312E2C);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 36px */
+    }
+
+    img {
+        height: 171px;
+    }
+    section {
+        margin: 0 var(--spacing-300);
+    }
+}
