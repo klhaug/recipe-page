@@ -146,6 +146,7 @@ section {
 .img-container {
     padding: var(--spacing-500);
     padding-bottom: 0;
+    display: flex;
     margin-bottom: 8px;
 }
 
@@ -168,7 +169,6 @@ ul {
     gap: var(--spacing-100);
     list-style-position: outside;
 }
-
 
 ul li {
     color: var(--color-stone-600);

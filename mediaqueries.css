@@ -7,6 +7,10 @@
         margin: 0;
     }
 
+    img{
+        border-radius: 0;
+    }
+
     .img-container {
         padding: 0;
         width: 100%;
@@ -23,6 +27,7 @@
 
     img {
         height: 171px;
+        
     }
     section {
         margin: 0 var(--spacing-300);
