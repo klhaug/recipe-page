@@ -188,6 +188,7 @@ ul li {
 
 li::marker {
     color: var(--color-brown-800);
+    font-family: "Outfit";
 }
 
 ol {
@@ -235,6 +236,13 @@ font-size: var(--font-size-desktop-text-preset-4, 16px);
 font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 24px */
+}
+
+.table-row:first-of-type {
+    padding-top: 0;
+}
+.table-row:last-of-type {
+    padding-bottom: 0;
 }
 
 .table-row p:nth-child(2) {
